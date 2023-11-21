@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="../css/lab1.css">
+</head>
+<body>
+    <header>
+        <h1>Chọn màu chữ</h1>
+        <hr>
+    </header>
+    <div id="zone1">
+        <button type="submit" class="red">Đỏ</button>
+        <button type="submit" class="green"> Xanh</button>
+        <button type="submit" class="yelow">Vàng</button>
+        <button type="submit" class="pink">Pink</button>
+        <button type="submit" class="tim">Tím</button>
+
+        <p>Chào mừng các bạn đến thế giới của tôi</p>
+    </div>
+
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".red").click(function(){
+                $("p").css("color","red");
+            })
+            $(".green").click(function(){
+                $("p").css("color","green");
+            })
+            $(".yelow").click(function(){
+                $("p").css("color","yellow");
+            })
+            $(".pink").click(function(){
+                $("p").css("color","pink");
+            })
+            $(".tim").click(function(){
+                $("p").css("color","purple");
+            })
+            
+        });
+
+     </script>
+</body>
+</html>
