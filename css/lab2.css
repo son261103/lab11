@@ -1,0 +1,32 @@
+h1{
+    text-align: center  ;
+}
+
+
+.row-2 ul{
+    list-style-type: none;
+    display: flex;
+    margin: 2rem 3rem;
+
+}
+#zone1 .row{
+    padding: 2rem 25rem 2rem 25rem;
+}
+ .row img{
+    width: 1050px;
+    height: 400px;
+}
+
+.row-2 img{
+    width: 200px;
+    height: 200px;
+    margin: 2.75rem;
+    cursor: pointer;
+}
+
+.row-2 img:hover{
+    border: 5px solid rgb(222, 186, 42);
+}
+
+
+
